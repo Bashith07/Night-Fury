@@ -1,0 +1,616 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Night Fury | The Partners</title>
+
+    <meta name="description"
+        content="Night Fury - The Partners. Premium shirts and T-shirts.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <a href="#" class="brand">
+            <img src="images/logo.jpg" alt="Night Fury Logo">
+            <div>
+                <strong>NIGHT FURY</strong>
+                <small>THE PARTNERS</small>
+            </div>
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a class="nav-order"
+           href="https://wa.me/918083737390"
+           target="_blank">
+            Order Now
+        </a>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                THE PARTNERS • SHIRTS • T-SHIRTS
+            </p>
+
+            <h1>
+                NIGHT
+                <span>FURY.</span>
+            </h1>
+
+            <p class="hero-description">
+                Style that speaks for itself.
+                Discover the Night Fury collection of
+                shirts and T-shirts made for everyday confidence.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#shop" class="btn primary">
+                    Explore Collection
+                </a>
+
+                <a href="#contact" class="btn secondary">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="hero-circle"></div>
+
+            <img src="images/product-6.jpg"
+                 alt="Night Fury Black Polo">
+
+            <div class="hero-label">
+                <span>NF</span>
+                NIGHT FURY
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= MARQUEE ================= -->
+
+    <div class="marquee">
+
+        <div>
+            NIGHT FURY • THE PARTNERS •
+            SHIRTS • T-SHIRTS •
+            NIGHT FURY • THE PARTNERS •
+            SHIRTS • T-SHIRTS •
+        </div>
+
+    </div>
+
+
+    <!-- ================= SHOP ================= -->
+
+    <section class="shop section" id="shop">
+
+        <div class="section-heading">
+
+            <div>
+                <p class="section-label">OUR COLLECTION</p>
+
+                <h2>
+                    Wear the
+                    <span>Fury.</span>
+                </h2>
+            </div>
+
+            <p class="section-description">
+                Explore our latest shirts and T-shirts.
+                Choose your style and order directly through WhatsApp.
+            </p>
+
+        </div>
+
+
+        <!-- FILTER BUTTONS -->
+
+        <div class="filters">
+
+            <button class="filter active"
+                    data-filter="all">
+                All
+            </button>
+
+            <button class="filter"
+                    data-filter="polo">
+                Polo Shirts
+            </button>
+
+            <button class="filter"
+                    data-filter="tshirt">
+                T-Shirts
+            </button>
+
+            <button class="filter"
+                    data-filter="long">
+                Long Sleeve
+            </button>
+
+        </div>
+
+
+        <!-- PRODUCTS -->
+
+        <div class="products">
+
+
+            <!-- PRODUCT 1 -->
+
+            <article class="product-card"
+                     data-category="polo">
+
+                <div class="product-image">
+
+                    <img src="images/product-1.jpg"
+                         alt="Classic White Polo">
+
+                    <span class="product-tag">
+                        POLO
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>POLO SHIRT</p>
+
+                    <h3>Classic White Polo</h3>
+
+                    <button
+                        onclick="orderProduct('Classic White Polo')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2 -->
+
+            <article class="product-card"
+                     data-category="polo">
+
+                <div class="product-image">
+
+                    <img src="images/product-2.jpg"
+                         alt="Sky Blue Polo">
+
+                    <span class="product-tag">
+                        POLO
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>POLO SHIRT</p>
+
+                    <h3>Sky Blue Polo</h3>
+
+                    <button
+                        onclick="orderProduct('Sky Blue Polo')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3 -->
+
+            <article class="product-card"
+                     data-category="tshirt">
+
+                <div class="product-image">
+
+                    <img src="images/product-3.jpg"
+                         alt="Signature White T-Shirt">
+
+                    <span class="product-tag">
+                        T-SHIRT
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>T-SHIRT</p>
+
+                    <h3>Signature White Tee</h3>
+
+                    <button
+                        onclick="orderProduct('Signature White Tee')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 4 -->
+
+            <article class="product-card"
+                     data-category="polo">
+
+                <div class="product-image">
+
+                    <img src="images/product-4.jpg"
+                         alt="Night Fury Stripes">
+
+                    <span class="product-tag">
+                        POLO
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>POLO SHIRT</p>
+
+                    <h3>Night Fury Stripes</h3>
+
+                    <button
+                        onclick="orderProduct('Night Fury Stripes')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 5 -->
+
+            <article class="product-card"
+                     data-category="tshirt">
+
+                <div class="product-image">
+
+                    <img src="images/product-5.jpg"
+                         alt="Essential White Tee">
+
+                    <span class="product-tag">
+                        T-SHIRT
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>T-SHIRT</p>
+
+                    <h3>Essential White Tee</h3>
+
+                    <button
+                        onclick="orderProduct('Essential White Tee')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 6 -->
+
+            <article class="product-card"
+                     data-category="polo">
+
+                <div class="product-image">
+
+                    <img src="images/product-6.jpg"
+                         alt="Midnight Black Polo">
+
+                    <span class="product-tag">
+                        POLO
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>POLO SHIRT</p>
+
+                    <h3>Midnight Black Polo</h3>
+
+                    <button
+                        onclick="orderProduct('Midnight Black Polo')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 7 -->
+
+            <article class="product-card"
+                     data-category="polo">
+
+                <div class="product-image">
+
+                    <img src="images/product-7.jpg"
+                         alt="Night Fury Stripes White Logo">
+
+                    <span class="product-tag">
+                        POLO
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>POLO SHIRT</p>
+
+                    <h3>Stripes — White Logo</h3>
+
+                    <button
+                        onclick="orderProduct('Stripes White Logo')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 8 -->
+
+            <article class="product-card"
+                     data-category="polo">
+
+                <div class="product-image">
+
+                    <img src="images/product-8.jpg"
+                         alt="Deep Red Polo">
+
+                    <span class="product-tag">
+                        POLO
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>POLO SHIRT</p>
+
+                    <h3>Deep Red Polo</h3>
+
+                    <button
+                        onclick="orderProduct('Deep Red Polo')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 9 -->
+
+            <article class="product-card"
+                     data-category="long">
+
+                <div class="product-image">
+
+                    <img src="images/product-9.jpg"
+                         alt="Deep Red Long Sleeve">
+
+                    <span class="product-tag">
+                        LONG SLEEVE
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>LONG SLEEVE</p>
+
+                    <h3>Deep Red Long Sleeve</h3>
+
+                    <button
+                        onclick="orderProduct('Deep Red Long Sleeve')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 10 -->
+
+            <article class="product-card"
+                     data-category="long">
+
+                <div class="product-image">
+
+                    <img src="images/product-10.jpg"
+                         alt="Deep Red White Logo">
+
+                    <span class="product-tag">
+                        LONG SLEEVE
+                    </span>
+
+                </div>
+
+                <div class="product-info">
+
+                    <p>LONG SLEEVE</p>
+
+                    <h3>Deep Red — White Logo</h3>
+
+                    <button
+                        onclick="orderProduct('Deep Red White Logo')">
+                        Order on WhatsApp →
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about section" id="about">
+
+        <div class="about-logo">
+
+            <img src="images/logo.jpg"
+                 alt="Night Fury Logo">
+
+        </div>
+
+
+        <div class="about-content">
+
+            <p class="section-label">
+                ABOUT NIGHT FURY
+            </p>
+
+            <h2>
+                Built for
+                <span>your style.</span>
+            </h2>
+
+            <p>
+                Night Fury — The Partners is a clothing brand
+                focused on shirts and T-shirts with a clean,
+                recognizable identity.
+            </p>
+
+            <p>
+                From everyday essentials to statement pieces,
+                our collection is designed to keep your style
+                simple and confident.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact section"
+             id="contact">
+
+        <div>
+
+            <p class="section-label">
+                HAVE A QUESTION?
+            </p>
+
+            <h2>
+                Let's talk.
+            </h2>
+
+            <p>
+                For orders, product information or enquiries,
+                contact Night Fury directly.
+            </p>
+
+        </div>
+
+
+        <div class="contact-card">
+
+            <p>CALL / WHATSAPP</p>
+
+            <a href="tel:8083737390">
+                8083737390
+            </a>
+
+            <a class="whatsapp"
+               href="https://wa.me/918083737390"
+               target="_blank">
+
+                WhatsApp Us →
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-brand">
+
+            <img src="images/logo.jpg"
+                 alt="Night Fury">
+
+            <div>
+                <strong>NIGHT FURY</strong>
+                <small>THE PARTNERS</small>
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+
+        <p>
+            © 2026 Night Fury — The Partners
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
+
+**Only change made:** every `product-1.png` through `product-10.png` is now `.jpg`. The `logo.jpg` was already `.jpg`, so it remains unchanged.
